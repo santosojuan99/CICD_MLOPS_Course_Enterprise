@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import joblib
 
-from config import config
+from ml.config import config
 
 def train():
     config.model_dir.mkdir(parents=True, exist_ok=True)
